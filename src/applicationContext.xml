@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean name="A" class="com.jacob.bean.A" scope="singleton">
+        <property name="AString" value="a_string..."/>
+        <property name="b" ref="B"/>
+    </bean>
+
+    <bean name="B" class="com.jacob.bean.B" scope="prototype">
+        <property name="BString" value="b_string!!!"/>
+    </bean>
+</beans>

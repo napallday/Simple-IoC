@@ -1,2 +1,2 @@
 # Simple-IoC
-IoC容器简单粗暴的实现
+IoC容器简单的实现
